@@ -7,17 +7,15 @@ svg {
 }
 
 #background {
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
+  width: calc(100%);
+  height: calc(100%);
   fill: white;
   stroke: rgb(225, 228, 232);
   stroke-width: 1px;
-  rx: 6px;
-  ry: 6px;
 }
 
 #gh-dark-mode-only:target #background {
-  fill: #0d1117;
+  fill: #151515;
   stroke-width: 0.5px;
 }
 
@@ -52,10 +50,11 @@ td {
   font-size: 12px;
   line-height: 18px;
   color: rgb(88, 96, 105);
+  font-weight: 500;
 }
 
 #gh-dark-mode-only:target td {
-  color: #c9d1d9;
+  color: #e0e4e9;
 }
 
 tr {
@@ -64,13 +63,13 @@ tr {
 }
 
 .octicon {
-  fill: rgb(88, 96, 105);
+  fill: #c4d524;
   margin-right: 1ch;
   vertical-align: top;
 }
 
 #gh-dark-mode-only:target .octicon {
-  fill: #8b949e;
+  fill: #b9df10;
 }
 
 @keyframes slideIn {
