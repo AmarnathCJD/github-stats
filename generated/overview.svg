@@ -10,8 +10,7 @@ svg {
   width: calc(100%);
   height: calc(100%);
   fill: #151515;
-  
-  stroke-width: 1px;
+  stroke-width: 0px;
 }
 
 #gh-dark-mode-only:target #background {
@@ -21,7 +20,7 @@ svg {
 
 foreignObject {
   width: calc(100% - 10px - 32px);
-  height: calc(100% - 10px - 32px);
+  height: calc(100%);
 }
 
 table {
